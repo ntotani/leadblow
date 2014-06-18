@@ -56,8 +56,6 @@ bool AppDelegate::applicationDidFinishLaunching()
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
-    FileUtils::getInstance()->addSearchPath("res");
-
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     auto flurryId = FLURRY_ID_IOS;
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
