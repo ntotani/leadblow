@@ -34,6 +34,13 @@
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
         <activity android:name="com.google.android.gms.ads.AdActivity"
                   android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.amoad.amoadsdk.AMoAdSdkWallActivity"
+            android:screenOrientation="unspecified"
+            android:configChanges="orientation|keyboardHidden">
+            <meta-data android:name="app_key" android:value="hogeHOGEhogeHOGE"/>
+            <meta-data android:name="debug" android:value="false"/>
+            <meta-data android:name="conversion" android:value="true"/>
+        </activity>
     </application>
 
     <supports-screens android:anyDensity="true"
