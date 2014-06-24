@@ -33,6 +33,8 @@
 		5091733917ECE17A00D62437 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 5091733317ECE17A00D62437 /* Icon-58.png */; };
 		5091733A17ECE17A00D62437 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5091733417ECE17A00D62437 /* Icon-80.png */; };
 		5091733B17ECE17A00D62437 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 5091733517ECE17A00D62437 /* Icon-100.png */; };
+		9760C30F195995DB00233167 /* libPluginAmoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9760C30C195994EB00233167 /* libPluginAmoad.a */; };
+		9760C3161959A38600233167 /* AMoAdSettings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9760C3151959A38600233167 /* AMoAdSettings.txt */; };
 		9771DE6C1938A3E50046C175 /* libPluginProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE651938A0310046C175 /* libPluginProtocol.a */; };
 		9771DE6E1938A4830046C175 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE6D1938A4830046C175 /* MediaPlayer.framework */; };
 		9771DE771938BB2A0046C175 /* libPluginFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE741938BAF90046C175 /* libPluginFlurry.a */; };
@@ -163,6 +165,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = A07A4FB4178387730073F6A7;
 			remoteInfo = "CocosDenshion iOS";
+		};
+		9760C30B195994EB00233167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9760C307195994EA00233167 /* PluginAmoad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FADC44A7176EA82000B2D5ED;
+			remoteInfo = PluginAmoad;
+		};
+		9760C30D195995C500233167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9760C307195994EA00233167 /* PluginAmoad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FADC44A6176EA82000B2D5ED;
+			remoteInfo = PluginAmoad;
 		};
 		9771DE641938A0310046C175 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -328,6 +344,8 @@
 		50D7C96B17EBBEDF005D0B91 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		50D7C96D17EBBEE6005D0B91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		50D7C96F17EBBEEC005D0B91 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		9760C307195994EA00233167 /* PluginAmoad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginAmoad.xcodeproj; path = "../../cocos2d-x/plugin/plugins/amoad/proj.ios/PluginAmoad.xcodeproj"; sourceTree = "<group>"; };
+		9760C3151959A38600233167 /* AMoAdSettings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AMoAdSettings.txt; sourceTree = "<group>"; };
 		9771DE601938A0310046C175 /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = "../../cocos2d-x/plugin/protocols/proj.ios/PluginProtocol.xcodeproj"; sourceTree = "<group>"; };
 		9771DE6D1938A4830046C175 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		9771DE6F1938BAF90046C175 /* PluginFlurry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFlurry.xcodeproj; path = "../../cocos2d-x/plugin/plugins/flurry/proj.ios/PluginFlurry.xcodeproj"; sourceTree = "<group>"; };
@@ -392,7 +410,7 @@
 		C09BA7ED18BCA49600A85A3E /* NSAppSheetAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAppSheetAdditions.m; sourceTree = "<group>"; };
 		C0F9D4BB192F3E6A0066134A /* rtres */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rtres; path = ../../../runtime/rtres; sourceTree = "<group>"; };
 		D6B061341803AC000077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		F293B3C815EB7BE500256477 /* leadblow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leadblow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F293B3C815EB7BE500256477 /* leadblow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = leadblow.app; path = leadblow_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F293B3CC15EB7BE500256477 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F293B3CE15EB7BE500256477 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F293B3D015EB7BE500256477 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -410,6 +428,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9760C30F195995DB00233167 /* libPluginAmoad.a in Frameworks */,
 				97EFFEA1193C8D180035382A /* libPluginFacebook.a in Frameworks */,
 				97EFFE93193C651C0035382A /* Social.framework in Frameworks */,
 				97EFFE8F193C632D0035382A /* libPluginTwitter.a in Frameworks */,
@@ -499,6 +518,7 @@
 		5023810617EBBCAC00990C9B /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				9760C3151959A38600233167 /* AMoAdSettings.txt */,
 				5023810717EBBCAC00990C9B /* AppController.h */,
 				5023810817EBBCAC00990C9B /* AppController.mm */,
 				5023810917EBBCAC00990C9B /* Default-568h@2x.png */,
@@ -553,12 +573,21 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
+		9760C308195994EA00233167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9760C30C195994EB00233167 /* libPluginAmoad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9771DE5D1938A0000046C175 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
 				9771DE601938A0310046C175 /* PluginProtocol.xcodeproj */,
 				9771DE6F1938BAF90046C175 /* PluginFlurry.xcodeproj */,
 				9771DE7F1938C6290046C175 /* PluginAdmob.xcodeproj */,
+				9760C307195994EA00233167 /* PluginAmoad.xcodeproj */,
 				97EFFE85193C62580035382A /* PluginTwitter.xcodeproj */,
 				97EFFE99193C8CF20035382A /* PluginFacebook.xcodeproj */,
 			);
@@ -722,6 +751,7 @@
 				9771DE671938A0760046C175 /* PBXTargetDependency */,
 				9771DE761938BB1D0046C175 /* PBXTargetDependency */,
 				9771DE921938C93B0046C175 /* PBXTargetDependency */,
+				9760C30E195995C500233167 /* PBXTargetDependency */,
 				97EFFE8E193C63190035382A /* PBXTargetDependency */,
 				97EFFEA0193C8D010035382A /* PBXTargetDependency */,
 			);
@@ -765,6 +795,10 @@
 				{
 					ProductGroup = 9771DE801938C6290046C175 /* Products */;
 					ProjectRef = 9771DE7F1938C6290046C175 /* PluginAdmob.xcodeproj */;
+				},
+				{
+					ProductGroup = 9760C308195994EA00233167 /* Products */;
+					ProjectRef = 9760C307195994EA00233167 /* PluginAmoad.xcodeproj */;
 				},
 				{
 					ProductGroup = 97EFFE9A193C8CF20035382A /* Products */;
@@ -859,6 +893,13 @@
 			fileType = archive.ar;
 			path = "libCocosDenshion iOS.a";
 			remoteRef = 15A8A42C1834BDA200142BE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9760C30C195994EB00233167 /* libPluginAmoad.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginAmoad.a;
+			remoteRef = 9760C30B195994EB00233167 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		9771DE651938A0310046C175 /* libPluginProtocol.a */ = {
@@ -965,6 +1006,7 @@
 				C03781DD18BF656A00FE4F13 /* DeprecatedEnum.lua in Resources */,
 				C03781E318BF656A00FE4F13 /* extern.lua in Resources */,
 				C03781D918BF656A00FE4F13 /* Deprecated.lua in Resources */,
+				9760C3161959A38600233167 /* AMoAdSettings.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,6 +1031,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9760C30E195995C500233167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PluginAmoad;
+			targetProxy = 9760C30D195995C500233167 /* PBXContainerItemProxy */;
+		};
 		9771DE671938A0760046C175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PluginProtocol;
@@ -1050,6 +1097,7 @@
 		F293B6C215EB7BEA00256477 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
@@ -1076,6 +1124,7 @@
 		F293B6C315EB7BEA00256477 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_C_LANGUAGE_STANDARD = c99;

@@ -94,6 +94,16 @@ bool AppDelegate::applicationDidFinishLaunching()
         }
     }
 
+    auto amoad = dynamic_cast<ProtocolAds*>(PluginManager::getInstance()->loadPlugin("AdsAmoad"));
+    if (amoad) {
+#ifdef COCOS2D_DEBUG
+        amoad->setDebugMode(true);
+#endif
+        TAdsDeveloperInfo info;
+        info["sendUUID"] = "YES";
+        amoad->configDeveloperInfo(info);
+    }
+
     auto engine = LuaEngine::getInstance();
     ScriptEngineManager::getInstance()->setScriptEngine(engine);
     

@@ -1,0 +1,3 @@
+appKey=hogeHOGEhogeHOGE
+test=NO
+conversion=YES

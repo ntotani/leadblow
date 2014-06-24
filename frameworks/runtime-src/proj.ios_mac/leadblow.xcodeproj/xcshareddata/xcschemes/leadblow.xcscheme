@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F293B3C715EB7BE500256477"
-               BuildableName = "leadblow.app"
+               BuildableName = "leadblow_iOS.app"
                BlueprintName = "leadblow_iOS"
                ReferencedContainer = "container:leadblow.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F293B3C715EB7BE500256477"
-            BuildableName = "leadblow.app"
+            BuildableName = "leadblow_iOS.app"
             BlueprintName = "leadblow_iOS"
             ReferencedContainer = "container:leadblow.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F293B3C715EB7BE500256477"
-            BuildableName = "leadblow.app"
+            BuildableName = "leadblow_iOS.app"
             BlueprintName = "leadblow_iOS"
             ReferencedContainer = "container:leadblow.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F293B3C715EB7BE500256477"
-            BuildableName = "leadblow.app"
+            BuildableName = "leadblow_iOS.app"
             BlueprintName = "leadblow_iOS"
             ReferencedContainer = "container:leadblow.xcodeproj">
          </BuildableReference>
