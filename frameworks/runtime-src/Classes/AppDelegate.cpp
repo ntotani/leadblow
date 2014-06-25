@@ -104,6 +104,16 @@ bool AppDelegate::applicationDidFinishLaunching()
         amoad->configDeveloperInfo(info);
     }
 
+    auto felloId = FELLO_ID;
+    if (strlen(felloId) > 0) {
+        auto fello = dynamic_cast<ProtocolAds*>(PluginManager::getInstance()->loadPlugin("AdsFello"));
+        if (fello) {
+            TAdsDeveloperInfo devInfo;
+            devInfo["FelloID"] = felloId;
+            fello->configDeveloperInfo(devInfo);
+        }
+    }
+
     auto engine = LuaEngine::getInstance();
     ScriptEngineManager::getInstance()->setScriptEngine(engine);
     

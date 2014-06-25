@@ -45,6 +45,9 @@
 		9771DE951938CA8B0046C175 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE941938CA8B0046C175 /* CoreTelephony.framework */; };
 		9771DE971938CA920046C175 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE961938CA920046C175 /* StoreKit.framework */; };
 		9771DE991938CAA70046C175 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771DE981938CAA70046C175 /* MessageUI.framework */; };
+		977A9551195AA6FD009C4607 /* libPluginFello.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 977A954E195AA6D4009C4607 /* libPluginFello.a */; };
+		977A9554195AA73B009C4607 /* FelloPush.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 977A9552195AA73B009C4607 /* FelloPush.bundle */; };
+		977A9555195AA73B009C4607 /* FelloPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977A9553195AA73B009C4607 /* FelloPush.framework */; };
 		97EFFE8F193C632D0035382A /* libPluginTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE8C193C62580035382A /* libPluginTwitter.a */; };
 		97EFFE93193C651C0035382A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE92193C651C0035382A /* Social.framework */; };
 		97EFFEA1193C8D180035382A /* libPluginFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE9E193C8CF20035382A /* libPluginFacebook.a */; };
@@ -222,6 +225,20 @@
 			remoteGlobalIDString = FADC44A6176EA82000B2D5ED;
 			remoteInfo = PluginAdmob;
 		};
+		977A954D195AA6D4009C4607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FADC44A7176EA82000B2D5ED;
+			remoteInfo = PluginFello;
+		};
+		977A954F195AA6E9009C4607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FADC44A6176EA82000B2D5ED;
+			remoteInfo = PluginFello;
+		};
 		97EFFE8B193C62580035382A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97EFFE85193C62580035382A /* PluginTwitter.xcodeproj */;
@@ -357,6 +374,9 @@
 		9771DE941938CA8B0046C175 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		9771DE961938CA920046C175 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		9771DE981938CAA70046C175 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFello.xcodeproj; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/PluginFello.xcodeproj"; sourceTree = "<group>"; };
+		977A9552195AA73B009C4607 /* FelloPush.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FelloPush.bundle; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/FelloPush.bundle"; sourceTree = "<group>"; };
+		977A9553195AA73B009C4607 /* FelloPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FelloPush.framework; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/FelloPush.framework"; sourceTree = "<group>"; };
 		97EFFE85193C62580035382A /* PluginTwitter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginTwitter.xcodeproj; path = "../../cocos2d-x/plugin/plugins/twitter/proj.ios/PluginTwitter.xcodeproj"; sourceTree = "<group>"; };
 		97EFFE92193C651C0035382A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
 		97EFFE99193C8CF20035382A /* PluginFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebook.xcodeproj; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/PluginFacebook.xcodeproj"; sourceTree = "<group>"; };
@@ -410,7 +430,7 @@
 		C09BA7ED18BCA49600A85A3E /* NSAppSheetAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAppSheetAdditions.m; sourceTree = "<group>"; };
 		C0F9D4BB192F3E6A0066134A /* rtres */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rtres; path = ../../../runtime/rtres; sourceTree = "<group>"; };
 		D6B061341803AC000077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		F293B3C815EB7BE500256477 /* leadblow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = leadblow.app; path = leadblow_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F293B3C815EB7BE500256477 /* leadblow_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leadblow_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F293B3CC15EB7BE500256477 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F293B3CE15EB7BE500256477 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F293B3D015EB7BE500256477 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -428,6 +448,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977A9551195AA6FD009C4607 /* libPluginFello.a in Frameworks */,
 				9760C30F195995DB00233167 /* libPluginAmoad.a in Frameworks */,
 				97EFFEA1193C8D180035382A /* libPluginFacebook.a in Frameworks */,
 				97EFFE93193C651C0035382A /* Social.framework in Frameworks */,
@@ -444,6 +465,7 @@
 				9771DE6C1938A3E50046C175 /* libPluginProtocol.a in Frameworks */,
 				C03781F618BF65B100FE4F13 /* libluabindings iOS.a in Frameworks */,
 				15A8A4441834C43700142BE0 /* libchipmunk iOS.a in Frameworks */,
+				977A9555195AA73B009C4607 /* FelloPush.framework in Frameworks */,
 				15A8A4451834C43700142BE0 /* libcocos2dx iOS.a in Frameworks */,
 				15A8A4461834C43700142BE0 /* libcocos2dx-extensions iOS.a in Frameworks */,
 				15A8A4471834C43700142BE0 /* libCocosDenshion iOS.a in Frameworks */,
@@ -588,6 +610,7 @@
 				9771DE6F1938BAF90046C175 /* PluginFlurry.xcodeproj */,
 				9771DE7F1938C6290046C175 /* PluginAdmob.xcodeproj */,
 				9760C307195994EA00233167 /* PluginAmoad.xcodeproj */,
+				977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */,
 				97EFFE85193C62580035382A /* PluginTwitter.xcodeproj */,
 				97EFFE99193C8CF20035382A /* PluginFacebook.xcodeproj */,
 			);
@@ -614,6 +637,14 @@
 			isa = PBXGroup;
 			children = (
 				9771DE841938C6290046C175 /* libPluginAdmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977A9542195AA6D4009C4607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977A954E195AA6D4009C4607 /* libPluginFello.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -662,7 +693,7 @@
 		F293B3C915EB7BE500256477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F293B3C815EB7BE500256477 /* leadblow.app */,
+				F293B3C815EB7BE500256477 /* leadblow_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -670,6 +701,8 @@
 		F293B3CB15EB7BE500256477 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				977A9552195AA73B009C4607 /* FelloPush.bundle */,
+				977A9553195AA73B009C4607 /* FelloPush.framework */,
 				97EFFE92193C651C0035382A /* Social.framework */,
 				9771DE981938CAA70046C175 /* MessageUI.framework */,
 				9771DE961938CA920046C175 /* StoreKit.framework */,
@@ -752,12 +785,13 @@
 				9771DE761938BB1D0046C175 /* PBXTargetDependency */,
 				9771DE921938C93B0046C175 /* PBXTargetDependency */,
 				9760C30E195995C500233167 /* PBXTargetDependency */,
+				977A9550195AA6E9009C4607 /* PBXTargetDependency */,
 				97EFFE8E193C63190035382A /* PBXTargetDependency */,
 				97EFFEA0193C8D010035382A /* PBXTargetDependency */,
 			);
 			name = leadblow_iOS;
 			productName = leadblow;
-			productReference = F293B3C815EB7BE500256477 /* leadblow.app */;
+			productReference = F293B3C815EB7BE500256477 /* leadblow_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -803,6 +837,10 @@
 				{
 					ProductGroup = 97EFFE9A193C8CF20035382A /* Products */;
 					ProjectRef = 97EFFE99193C8CF20035382A /* PluginFacebook.xcodeproj */;
+				},
+				{
+					ProductGroup = 977A9542195AA6D4009C4607 /* Products */;
+					ProjectRef = 977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */;
 				},
 				{
 					ProductGroup = 9771DE701938BAF90046C175 /* Products */;
@@ -923,6 +961,13 @@
 			remoteRef = 9771DE831938C6290046C175 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		977A954E195AA6D4009C4607 /* libPluginFello.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginFello.a;
+			remoteRef = 977A954D195AA6D4009C4607 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		97EFFE8C193C62580035382A /* libPluginTwitter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -982,6 +1027,7 @@
 				C0F9D4BC192F3E6A0066134A /* rtres in Resources */,
 				5023812017EBBCAC00990C9B /* Icon-57.png in Resources */,
 				C03781CF18BF656A00FE4F13 /* AudioEngine.lua in Resources */,
+				977A9554195AA73B009C4607 /* FelloPush.bundle in Resources */,
 				C03781B918BF655400FE4F13 /* res in Resources */,
 				C03781EF18BF656A00FE4F13 /* OpenglConstants.lua in Resources */,
 				C03781E518BF656A00FE4F13 /* GuiConstants.lua in Resources */,
@@ -1050,6 +1096,11 @@
 			isa = PBXTargetDependency;
 			name = PluginAdmob;
 			targetProxy = 9771DE911938C93B0046C175 /* PBXContainerItemProxy */;
+		};
+		977A9550195AA6E9009C4607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PluginFello;
+			targetProxy = 977A954F195AA6E9009C4607 /* PBXContainerItemProxy */;
 		};
 		97EFFE8E193C63190035382A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1150,6 +1201,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/n_totani/Documents/leadblow/frameworks/cocos2d-x/plugin/plugins/fello/proj.ios",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -1174,6 +1229,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/n_totani/Documents/leadblow/frameworks/cocos2d-x/plugin/plugins/fello/proj.ios",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
