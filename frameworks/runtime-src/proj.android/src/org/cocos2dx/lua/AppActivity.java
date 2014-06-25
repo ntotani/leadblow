@@ -58,6 +58,10 @@ import com.facebook.LoggingBehavior;
 import com.facebook.Session;
 import com.facebook.SessionState;
 
+import com.unicon_ltd.konect.sdk.KonectNotificationsAPI;
+import com.unicon_ltd.konect.sdk.IKonectNotificationsCallback;
+import org.json.JSONObject;
+
 // The name of .so is specified in AndroidMenifest.xml. NativityActivity will load it automatically for you.
 // You can use "System.loadLibrary()" to load other .so files.
 
@@ -122,6 +126,10 @@ public class AppActivity extends Cocos2dxActivity{
 				return Session.getActiveSession().onActivityResult(that, requestCode, resultCode, data);
 			}
 		});
+
+    // init Fello
+    KonectNotificationsAPI.initialize(this, new OnFello());
+    KonectNotificationsAPI.setupNotifications();
 	}
 	 private boolean isWifiConnected() {  
 	        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);  
@@ -162,5 +170,32 @@ public class AppActivity extends Cocos2dxActivity{
 		Session session = Session.getActiveSession();
 		Session.saveSession(session, outState);
 	}
+
+  @Override
+  public void onNewIntent(Intent intent) {
+      super.onNewIntent(intent);
+      setIntent(intent);
+  }
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+    KonectNotificationsAPI.processIntent(getIntent());
+	}
+
+  private class OnFello implements IKonectNotificationsCallback {
+      @Override
+      public void onCompleteAdRequest(String scene, boolean success) {
+      }
+      @Override
+      public void onCloseAd(String scene, String reason) {
+      }
+      @Override
+      public void onShowAd(String scene) {
+      }
+      @Override
+      public void onLaunchFromNotification(String id, String message, JSONObject extra) {
+      }
+  }
 	
 }

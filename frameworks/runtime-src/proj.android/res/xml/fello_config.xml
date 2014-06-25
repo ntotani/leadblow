@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <ApplicationId></ApplicationId>
+  <IsTest>false</IsTest>
+  <NotificationLaunchActivityPackage>org.cocos2dx.hellolua</NotificationLaunchActivityPackage>
+  <NotificationLaunchActivityName>AppActivity</NotificationLaunchActivityName>
+  <NotificationTitle></NotificationTitle>
+  <NotificationIcon></NotificationIcon>
+  <EnableNotificationDialog>false</EnableNotificationDialog>
+</config>
