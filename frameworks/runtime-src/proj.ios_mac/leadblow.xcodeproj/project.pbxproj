@@ -48,6 +48,8 @@
 		977A9551195AA6FD009C4607 /* libPluginFello.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 977A954E195AA6D4009C4607 /* libPluginFello.a */; };
 		977A9554195AA73B009C4607 /* FelloPush.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 977A9552195AA73B009C4607 /* FelloPush.bundle */; };
 		977A9555195AA73B009C4607 /* FelloPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977A9553195AA73B009C4607 /* FelloPush.framework */; };
+		978D2DB0195D37B40015379E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 978D2DAE195D37B40015379E /* Icon.png */; };
+		978D2DB1195D37B40015379E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 978D2DAF195D37B40015379E /* Icon@2x.png */; };
 		97EFFE8F193C632D0035382A /* libPluginTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE8C193C62580035382A /* libPluginTwitter.a */; };
 		97EFFE93193C651C0035382A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE92193C651C0035382A /* Social.framework */; };
 		97EFFEA1193C8D180035382A /* libPluginFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFFE9E193C8CF20035382A /* libPluginFacebook.a */; };
@@ -377,6 +379,8 @@
 		977A9541195AA6D4009C4607 /* PluginFello.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFello.xcodeproj; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/PluginFello.xcodeproj"; sourceTree = "<group>"; };
 		977A9552195AA73B009C4607 /* FelloPush.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FelloPush.bundle; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/FelloPush.bundle"; sourceTree = "<group>"; };
 		977A9553195AA73B009C4607 /* FelloPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FelloPush.framework; path = "../../cocos2d-x/plugin/plugins/fello/proj.ios/FelloPush.framework"; sourceTree = "<group>"; };
+		978D2DAE195D37B40015379E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		978D2DAF195D37B40015379E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		97EFFE85193C62580035382A /* PluginTwitter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginTwitter.xcodeproj; path = "../../cocos2d-x/plugin/plugins/twitter/proj.ios/PluginTwitter.xcodeproj"; sourceTree = "<group>"; };
 		97EFFE92193C651C0035382A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
 		97EFFE99193C8CF20035382A /* PluginFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebook.xcodeproj; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/PluginFacebook.xcodeproj"; sourceTree = "<group>"; };
@@ -578,19 +582,21 @@
 		5091734A17ECE18300D62437 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				5091733017ECE17A00D62437 /* Icon-29.png */,
-				5091733117ECE17A00D62437 /* Icon-40.png */,
-				5091733217ECE17A00D62437 /* Icon-50.png */,
-				5091733317ECE17A00D62437 /* Icon-58.png */,
-				5091733417ECE17A00D62437 /* Icon-80.png */,
 				5091733517ECE17A00D62437 /* Icon-100.png */,
 				5023810C17EBBCAC00990C9B /* Icon-114.png */,
 				5023810D17EBBCAC00990C9B /* Icon-120.png */,
 				5023810E17EBBCAC00990C9B /* Icon-144.png */,
 				5023810F17EBBCAC00990C9B /* Icon-152.png */,
+				5091733017ECE17A00D62437 /* Icon-29.png */,
+				5091733117ECE17A00D62437 /* Icon-40.png */,
+				5091733217ECE17A00D62437 /* Icon-50.png */,
 				5023811017EBBCAC00990C9B /* Icon-57.png */,
+				5091733317ECE17A00D62437 /* Icon-58.png */,
 				5023811117EBBCAC00990C9B /* Icon-72.png */,
 				5023811217EBBCAC00990C9B /* Icon-76.png */,
+				5091733417ECE17A00D62437 /* Icon-80.png */,
+				978D2DAE195D37B40015379E /* Icon.png */,
+				978D2DAF195D37B40015379E /* Icon@2x.png */,
 			);
 			name = Icons;
 			sourceTree = "<group>";
@@ -1003,6 +1009,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978D2DB0195D37B40015379E /* Icon.png in Resources */,
+				978D2DB1195D37B40015379E /* Icon@2x.png in Resources */,
 				15A8A4491834C64F00142BE0 /* Icon-114.png in Resources */,
 				C08D5D5618E567C6009071A4 /* ftp.lua in Resources */,
 				C08D5D5C18E567C6009071A4 /* ltn12.lua in Resources */,
@@ -1214,7 +1222,7 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -1241,7 +1249,7 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
