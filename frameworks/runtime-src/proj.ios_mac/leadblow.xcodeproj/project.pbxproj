@@ -1203,7 +1203,7 @@
 				COMPRESS_PNG_FILES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/n_totani/Documents/leadblow/frameworks/cocos2d-x/plugin/plugins/fello/proj.ios",
+					"$(SRCROOT)/../../cocos2d-x/plugin/plugins/fello/proj.ios",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1231,7 +1231,7 @@
 				COMPRESS_PNG_FILES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/n_totani/Documents/leadblow/frameworks/cocos2d-x/plugin/plugins/fello/proj.ios",
+					"$(SRCROOT)/../../cocos2d-x/plugin/plugins/fello/proj.ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
