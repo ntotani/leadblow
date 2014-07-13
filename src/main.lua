@@ -34,8 +34,6 @@ local function main()
 		--require('debugger')()
         
     end
-    require "hello2"
-    cclog("result is " .. myadd(1, 1))
 
     ---------------
 
