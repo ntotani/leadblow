@@ -789,7 +789,7 @@ int lua_cocos2dx_runtime_addSearchPath(lua_State* tolua_S)
             return 0;
 
         if (!FileUtils::getInstance()->isAbsolutePath(arg0))
-            arg0 = g_resourcePath+arg0;
+            cobj->addSearchPath(g_resourcePath + arg0);
 
         cobj->addSearchPath(arg0);
         return 0;
